@@ -13,4 +13,5 @@ src.length.times{|row|
   }
   res.push(min)
 }
+res
 end
