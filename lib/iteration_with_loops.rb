@@ -6,7 +6,7 @@ res = []
 
 src.length.times{|row|
   min = src[row][0]
-  src[col].length.times{|col|
+  src[row].length.times{|col|
     if(src[row][col] < min)
       min = src[row][col]
     end
